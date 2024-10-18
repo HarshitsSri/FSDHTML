@@ -1,0 +1,18 @@
+body{
+    background-color: burlywood;
+}
+.container{
+    padding: 2px;
+    border: red ;
+}
+.ch1{
+    border: red;
+    color: white;
+    height: 100px;
+    border: 1px dotted blue;
+    background-color: red;
+
+}
+div>p{
+    background-color: yellow;
+}
