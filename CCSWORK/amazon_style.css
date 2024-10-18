@@ -73,6 +73,7 @@ li:hover{
 .card12{
     background-color: rgb(199, 60, 60);
     border: 1px solid ;
+    
 }
 
 .card13{
@@ -81,6 +82,34 @@ li:hover{
 }
 
 .card14{
+    background-color: rgb(144, 22, 22);
+    border: 1px solid ;
+}
+
+.card2{
+
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+
+}
+.card21{
+    background-color: brown;
+    border: 1px solid ;
+}
+
+.card22{
+    background-color: rgb(199, 60, 60);
+    border: 1px solid ;
+    
+}
+
+.card23{
+    background-color: rgb(100, 27, 27);
+    border: 1px solid ;
+}
+
+.card24{
     background-color: rgb(144, 22, 22);
     border: 1px solid ;
 }
