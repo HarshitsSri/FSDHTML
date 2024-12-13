@@ -2,6 +2,9 @@ import React from 'react'
 import Student from './Student'
 import StateHandling from './StateHandling'
 import ImageManipulation from './ImageManipulation'
+import UseEffectWork from './UseEffectWork'
+import Login from './Login'
+import Registration from './Registration'
 
 function App() {
   // const studentdata= [{
@@ -25,29 +28,44 @@ function App() {
   // }
   // ]
   return (
-    <div>
-      <div>
-        <h2 style={{color:'red'}}>hello react js</h2>
-        <div>
-          {/* <StateHandling /> */}
+    // <div>
+    //   <div>
+    //     <h2 style={{color:'red'}}>hello react js</h2>
+    //     <div>
+    //       <div></div>
+    //       {/* <StateHandling /> */}
           
-          {/* <Student data={studentdata} /> */}
-          {/* {
-            studentdata.map((ele)=>{
+    //       {/* <Student data={studentdata} /> */}
+    //       {/* {
+    //         studentdata.map((ele)=>{
 
-              return (
-                <Student data={ele} />
+    //           return (
+    //             <Student data={ele} />
 
-              )
-            })
-          } */}
-          <ImageManipulation />
-        </div>
-        <div>
-          {/* <Student image={<img src='https://commondatastorage.googleapis.com/codeskulptor-demos/riceracer_assets/img/srixner.png' height={100} width={100} />} name="Rahul Kumar" roll="2346" college="ABES Engineering college" /> */}
-        </div>
+    //           )
+    //         })
+    //       } */}
+    //       <ImageManipulation />
+    //     </div>
+    //     <div>
+    //       {/* <Student image={<img src='https://commondatastorage.googleapis.com/codeskulptor-demos/riceracer_assets/img/srixner.png' height={100} width={100} />} name="Rahul Kumar" roll="2346" college="ABES Engineering college" /> */}
+    //     </div>
 
-      </div>
+    //   </div>
+      
+    // </div>
+    // <div>
+    //   <UseEffectWork/>
+    // </div>
+    <div>
+      <h2>Login Form</h2>
+    <div>
+      <Login />
+    </div>
+    <br /><br />
+    <h2>Registration Form</h2>
+    <Registration/>
+      
       
     </div>
   )
